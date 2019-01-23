@@ -1,0 +1,81 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: #262626;
+  color: #fff;
+}
+
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-size: 18em;
+  margin:0em;
+  line-height: auto;
+}
+
+h2{
+  font-family: 'Roboto Slab', serif;
+  font-weight: lighter;
+  font-size: 4em;
+  margin:0em;
+}
+
+h3{
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin:0em;
+  /* vertical-align: middle; */
+}
+
+p{
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+  margin:0em;
+  vertical-align: top;
+}
+
+.parentContainer{
+  display: block;
+}
+
+/*Style for clock section*/
+.timeContainer{
+  display: inline;
+  padding-left:1em;
+  width: 60%;
+}
+
+.timeInner{
+  display: inline-block;
+  padding-left: 2em;
+}
+
+.ampmContainer{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*Styles for dates section  */
+.dateContainer{
+  display: inline-block;
+  padding-left: 4em;
+}
+
+.dateInner{
+  align-content: center;
+}
+
+.countdownContainer{
+  padding-left: 2em;
+  width: 100%;
+}
+
+.countdownInner{
+  display: block;
+}
+
+.counterDisplay{
+  margin: 2em;
+  display: inline-block;
+}
