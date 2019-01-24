@@ -45,7 +45,7 @@ p{
 /*Style for clock section*/
 .timeContainer{
   display: inline;
-  padding-left:1em;
+  /* padding-left:1em; */
   width: 60%;
 }
 
@@ -82,6 +82,6 @@ p{
 }
 
 .counterDisplay{
-  margin: 2em;
+  margin: 2em 2em 2em 0;
   display: inline-block;
 }
