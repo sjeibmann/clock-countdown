@@ -1,3 +1,5 @@
+/**********************
+Standard Styles */
 body{
   padding: 0px;
   margin: 0px;
@@ -35,12 +37,6 @@ p{
   vertical-align: top;
 }
 
-@@media only screen and (min-device-width : 768px) and (max-device-width :1024px) {
-  h1{
-    font-size: 16em;
-  }
-}
-
 .parentContainer{
   display: block;
   max-width: 1100px;
@@ -69,10 +65,12 @@ p{
 .dateContainer{
   display: inline-block;
   padding-left: 4em;
+  width: 20%;
 }
 
 .dateInner{
   align-content: center;
+  overflow-wrap: normal;
 }
 
 .countdownContainer{
@@ -90,4 +88,49 @@ p{
 .counterDisplay{
   margin: 2em 2em 2em 0;
   display: inline-block;
+}
+
+/**********************
+ @media queries */
+
+@media (max-width: 1010px) {
+  h1{
+    font-size: 16em;
+  }
+  h2{
+    font-size: 3.5em;
+  }
+  h3{
+    font-size: 1.5em;
+  }
+  p{
+    font-size: .65em;
+  }
+  .dateContainer{
+    padding-left: 2em;
+  }
+}
+
+@media (max-width: 900px) {
+  .dateContainer{
+    width: 100%;
+  }
+  .countdownContainer{
+    display: block;
+    width: 100%;
+    padding-top: 1em;
+  }
+  .countdownTitle{
+    display: inline-block;
+    overflow-wrap: normal;
+    vertical-align: top;
+    padding-top: 1em;
+  }
+  .countdownInner{
+    display:inline-block;
+    max-width: 60%;
+  }
+  .counterDisplay{
+    margin: 0 1em 1em 1em;
+  }
 }

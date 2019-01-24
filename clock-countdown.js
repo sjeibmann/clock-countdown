@@ -1,4 +1,4 @@
-var day =["SUN", "MON", "TUES", "WEDS", "THUR", "FRI", "SAT"];
+var day =["SUN", "MON", "TUES", "WEDS", "THURS", "FRI", "SAT"];
 
 var fD = new Date("April 16, 2019 00:00:00 GMT-0800");
 var oneDay = 1000*60*60*24;
@@ -29,7 +29,7 @@ var timeData = setInterval(function(){
 // Set the clock and date
   document.getElementById('time').innerHTML = curHour+":"+curMin;
   document.getElementById('AMPM').innerHTML = AmPm;
-  document.getElementById('date').innerHTML = "<strong>"+day[curWeekDay]+"</strong><br>"+curMonth+"/"+curDay+"<br>"+curYear;
+  document.getElementById('date').innerHTML = "<strong>"+day[curWeekDay]+"</strong> "+curMonth+"/"+curDay+" "+curYear;
 
 // calculate the days, hours, minutesm and seconds till the future date (fD)
   var d1_ms = d.getTime();
