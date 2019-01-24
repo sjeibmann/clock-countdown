@@ -37,6 +37,9 @@ p{
 
 .parentContainer{
   display: block;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Style for clock section*/
@@ -73,6 +76,9 @@ p{
 
 .countdownInner{
   display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .counterDisplay{
