@@ -1,6 +1,6 @@
 var day =["SUN", "MON", "TUES", "WEDS", "THURS", "FRI", "SAT"];
 
-var fD = new Date("June 24, 2019 00:00:00 GMT-0800");
+var fD = new Date("June 23, 2019 00:00:00 GMT-0800");
 var oneDay = 1000*60*60*24;
 
 var timeData = setInterval(function(){
